@@ -1,4 +1,4 @@
-#include "BaroSensor.h"
+#include "Particle-BaroSensor/Particle-BaroSensor.h"
 
 void setup(){
 	BaroSensor.begin();
