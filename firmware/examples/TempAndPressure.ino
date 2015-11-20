@@ -1,4 +1,4 @@
-#include "Particle-BaroSensor/Particle-BaroSensor.h"
+#include "Particle-BaroSensor/Particle_BaroSensor.h"
 
 void setup(){
 	BaroSensor.begin();
@@ -7,6 +7,6 @@ void setup(){
 void loop(){
 	float pressure = round(BaroSensor.getPressure(OSR_8192)) ;
 	float Temperature = BaroSensor.getTemperature() ;
-	Serial.print(pressure) ;
-	Serial.print(temperature) ;
+	Serial.println(pressure) ;
+	Serial.println(temperature) ;
 }
