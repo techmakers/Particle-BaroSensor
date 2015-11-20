@@ -11,7 +11,7 @@
  * https://github.com/freetronics/BaroSensor
  *
  */
-#include "Particle-BaroSensor/Particle-BaroSensor.h"
+#include "Particle-BaroSensor/Particle_BaroSensor.h"
 
 /* i2c address of module */
 #define BARO_ADDR 0x76
