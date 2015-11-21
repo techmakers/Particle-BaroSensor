@@ -14,6 +14,8 @@
 #ifndef _BAROLIBRARY_H
 #define _BAROLIBRARY_H
 
+#include "application.h"
+
 /* Module supports a range of lower oversampling levels, for faster
    less accurate results.
 
